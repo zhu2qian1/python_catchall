@@ -1,0 +1,6 @@
+["basic",
+"fast",
+"toxic",
+"icy",
+"fighter",
+"boss",]
