@@ -9,19 +9,19 @@ def make_prefix(han: int, fu: int) -> str:
         str: 翻数と符数に応じて「満貫」とか「三倍満」とかの文字列を返す。
     """
     if han >= 13:
-        return "数え役満"
+        return "数え役満 "
     if han >= 11:
-        return "三倍満"
+        return "三倍満 "
     if han >= 8:
-        return "倍満"
+        return "倍満 "
     if han >= 6:
-        return "跳満"
+        return "跳満 "
     if han >= 5:
-        return "満貫"
+        return "満貫 "
     if han == 4 and fu >= 30:
-        return "満貫"
+        return "満貫 "
     if han == 3 and fu >= 60:
-        return "満貫"
+        return "満貫 "
     return ""
 
 

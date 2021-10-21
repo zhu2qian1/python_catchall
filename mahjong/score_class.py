@@ -24,4 +24,4 @@ class Score:
         self.suffix = make_suffix(is_oya, is_ron)
 
     def __str__(self):
-        return f"{self.oya_or_ko} {self.ron_or_tsumo} {self.han}翻 {self.fu}符\n{self.prefix} {self.string_score}{self.suffix}"
+        return f"{self.oya_or_ko} {self.ron_or_tsumo} {self.han}翻 {self.fu}符\n{self.prefix}{self.string_score}{self.suffix}"
