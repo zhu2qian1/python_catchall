@@ -27,14 +27,14 @@ def make_prefix(han: int, fu: int) -> str:
 
 def make_suffix(is_oya: bool, is_ron: bool) -> str:
     """～点とか～オールみたいな点数の後につけるやつを生成する。
-    
+
     Args:
         is_oya (bool): 親かどうか。
         is_ron (bool): ロンかどうか。
-    
+
     Returns:
         str: ～点 とか ～オール みたいな点数の後にくっつける文字列を返す。
-    
+
     """
     if is_ron:
         return "点"
