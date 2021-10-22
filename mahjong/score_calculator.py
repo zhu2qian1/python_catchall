@@ -98,6 +98,10 @@ def calc_base_score(han: int, fu: int, kiriage_mangan: bool = True) -> int:
     return ceil_fu(fu) * pow(2, han + 2)
 
 
+def calc_base_score_aotenjo(han: int, fu: int) -> int:
+    return ceil_fu(fu) * pow(2, han + 2)
+
+
 def ceil_fu(fu: int) -> int:
     """切り上げ前の符から得点計算に使う符を返す。25が与えられたら25を返す（七対子）。
 
