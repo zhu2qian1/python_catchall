@@ -1,10 +1,10 @@
 from score_class import Score
-from constants import OYA, RON, KO, TSUMO
+from mahjong_constants import OYA, RON, KO, TSUMO
 
 if __name__ == "__main__":
     ls = []
-    ls.append(Score(4, 40, OYA, RON))
-    ls.append(Score(4, 40, OYA, TSUMO))
+    ls.append(Score(4, 20, OYA, RON))
+    ls.append(Score(4, 20, OYA, TSUMO))
     ls.append(Score(11, 40, OYA, RON))
     ls.append(Score(11, 40, OYA, TSUMO))
     ls.append(Score(13, 40, OYA, RON))
