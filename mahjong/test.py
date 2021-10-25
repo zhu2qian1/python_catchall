@@ -1,4 +1,4 @@
-from score_class import Score
+from Score import Score
 from mahjong_constants import OYA, RON, KO, TSUMO
 
 if __name__ == "__main__":
