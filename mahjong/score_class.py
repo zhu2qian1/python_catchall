@@ -13,7 +13,7 @@ class Score:
         if type(final_score) == int:
             self.string_score = str(final_score)
         else:  # ツモ
-            if is_oya:  # 子のツモ
+            if is_oya:  # 親のツモ
                 self.string_score = str(final_score[0])
             else:
                 self.string_score = (
